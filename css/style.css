@@ -35,6 +35,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
+  max-width: 100%;
 }
 .bottom_pattern {
   position: absolute;
@@ -234,5 +235,26 @@ body {
   }
   .bottom_pattern {
     display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .left_content .heading {
+    font-size: 25px;
+  }
+  .right_content .rated img {
+    margin-right: 3px;
+    width: 10px;
+  }
+  .right_content .rated span {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .right_content .rated {
+    padding: 0 5px;
+  }
+  .testimonials .testimonial {
+    padding: 10px 10px;
+    max-height: 250px;
   }
 }
